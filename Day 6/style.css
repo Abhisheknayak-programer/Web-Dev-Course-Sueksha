@@ -1,0 +1,10 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  color: white;
+}
+
+.greenBox {
+  background-color: green;
+}

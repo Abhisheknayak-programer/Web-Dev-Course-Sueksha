@@ -1,11 +1,12 @@
 <!-- 
-Classes 
-Id
-Inline Styles
-Style in Head
-Liking and using styles from external file 
--->
+Session 6 Concepts Taught
+Classes, Id, Inline Styles, Style in Head, Liking and using styles from external file 
 
+Homework 
+1. Add a video to each section in your website related to the flower name in that section.
+2. Add one music to your website which will be automatically played when you go live 
+3. Create a external file for css and link it to your HTML file and use some styles. to highlight the color of heading of your website.
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,9 +15,49 @@ Liking and using styles from external file
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 6</title>
+
+    <!-- Style in Head -->
+    <style>
+        .my_style {
+            background-color: black;
+            color: yellowgreen;
+        }
+    </style>
+
+    <!-- Liking and using styles from external file  -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Class and  ID  -->
+    <header class="header primary_bg" id="unique_style"> </header>
+    <div class="primary_bg" id="unique_style_2"></div>
+
+
+    <!-- Inline style -->
+    <p style="background-color: black; color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+        quam, nihil
+        mollitia a vitae cumque nulla
+        facere. Autem placeat atque maxime omnis consequatur sit suscipit commodi, nesciunt cum possimus asperiores?</p>
+
+
+    <p class="my_style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorem iusto a sed ducimus amet
+        temporibus natus
+        adipisci molestias ut blanditiis quibusdam consequuntur tempora nemo optio, repellat atque quasi delectus.</p>
+
+
+    <div class="box">
+        100
+    </div>
+
+    <div class="box">
+        500
+    </div>
+
+    <div class="box greenBox">
+        1000
+    </div>
+
 
 </body>
 
