@@ -1,0 +1,14 @@
+body {
+  background-color: #264653;
+}
+
+.primary__color {
+  color: #e76f51;
+  font-size: 100px;
+  font-weight: 100; /* 100 200 300 ..... 1000 */
+  border: 10px solid rgb(66, 255, 75);
+  border: 10px ridge rgb(255, 145, 66);
+
+  /* px - pexels, em, rem */
+  /* 1rem = 1em = 16px */
+}
