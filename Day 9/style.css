@@ -1,0 +1,38 @@
+* {
+  color: violet;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  color: white;
+  /* border: size type color; */
+  /* types of border : ridge, solid, outset, inset, double */
+  border: 5px solid green;
+  border-top-color: yellow;
+  border-bottom-color: blue;
+  border-right-color: violet;
+  /* border-radius: 20px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px; */
+  border-radius: 0px 20px 0px 20px;
+}
+
+.para {
+  word-spacing: 4px;
+}
+
+.name {
+  letter-spacing: 20px;
+  text-align: center; /* start center end */
+  cursor: pointer;
+}
+
+.big_para {
+  text-align: justify;
+}
+
+.anchor {
+  text-decoration: none;
+}
