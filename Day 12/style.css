@@ -1,0 +1,43 @@
+.unique {
+  background-color: black;
+  text-align: left;
+}
+
+.para {
+  text-align: justify;
+  line-height: 2;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+}
+
+* {
+  color: crimson;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  border: 5px solid crimson;
+  border: 5px ridge crimson;
+  border: 5px inset crimson;
+  border: 5px outset crimson;
+  border: 5px double crimson;
+  border: none;
+
+  /* border-radius: 20px 10px 20px 0px; */
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  border-radius: 50%;
+}
+
+.redirect {
+  text-decoration: none;
+}
+
+.redirect:hover {
+  text-decoration: underline;
+  cursor: move;
+}
