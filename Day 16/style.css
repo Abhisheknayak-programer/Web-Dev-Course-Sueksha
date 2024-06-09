@@ -1,0 +1,42 @@
+:root {
+  --primary-color: green;
+  --secondary-bg: #f6f6f6;
+}
+
+.img {
+  float: right;
+  height: 200px;
+  width: 200px;
+}
+
+/* .para1 {
+  color: var(--primary-color);
+  background: var(--secondary-bg);
+}
+
+.para2 {
+  color: var(--primary-color);
+  background: var(--secondary-bg);
+}
+
+.heading {
+  color: var(--primary-color);
+  background: var(--secondary-bg);
+} */
+
+.para1,
+.para2,
+.heading {
+  color: var(--primary-color);
+  background: var(--secondary-bg);
+}
+
+.flow {
+  height: 300px;
+  width: 100%;
+  border: 2px solid red;
+  /* overflow-x: scroll; */
+  /* overflow: none; */
+  /* overflow: hidden; */
+  overflow-y: scroll;
+}
